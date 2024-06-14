@@ -12,7 +12,7 @@ public class HelloController {
     @FXML
     private ColorPicker barva;
 
-
+    boolean wracket = false;
     public void zmenBarvu(ActionEvent event) {
         auto.setFill(barva.getValue());
     }
