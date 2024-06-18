@@ -22,6 +22,6 @@
       </ColorPicker>
       <Circle fill="WHITE" layoutX="165.0" layoutY="178.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="323.0" layoutY="178.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Slider layoutX="176.0" layoutY="296.0" max="50.0" min="25.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="slider" layoutX="176.0" layoutY="296.0" max="50.0" min="25.0" showTickLabels="true" showTickMarks="true" />
    </children>
 </AnchorPane>
